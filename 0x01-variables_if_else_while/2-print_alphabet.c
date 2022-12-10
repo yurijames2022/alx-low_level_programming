@@ -2,16 +2,15 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints the alphabet in lowercase\n
- * Return: Always 0 (success)
+ * Description: source code for printing alphabet
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	int ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	char al;
+	for (al = 'a' ; al <= 'z' ; al++)
 	{
-		putchar(ch);
+	putchar(al);
 	}
 	putchar('\n');
 	return (0);
