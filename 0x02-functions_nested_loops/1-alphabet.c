@@ -4,7 +4,7 @@
  *
  * Description: A program that prints the alphabet
  *
- * Return (0);
+ *
  */
 void print_alphabet(void)
 {
@@ -16,5 +16,4 @@ void print_alphabet(void)
 		_putchar(al[i]);
 		i++;
 	}
-	return;
 }
