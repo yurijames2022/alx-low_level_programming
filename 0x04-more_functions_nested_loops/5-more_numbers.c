@@ -3,19 +3,22 @@
 /**
  * more_numbers - Entry point
  *
- * Description: Print 0-14 ten times
+ * Description: prints 0-14 10 times
  */
 void more_numbers(void)
 {
 	int i, j;
+	int row = 9;
+	int col = 14;
 
-	for (j = 0; j <= 10; j++)
+	for (i = 0; i <= row; i++)
 	{
-		for (i = 0; i <= 14; i++)
+		for ( j = 0; j <= col; j++)
 		{
-			_putchar(i + '0');
+			_putchar(j + '0');
 		}
-		_putchar(i + '0');
 		_putchar('\n');
 	}
+	
+
 }
