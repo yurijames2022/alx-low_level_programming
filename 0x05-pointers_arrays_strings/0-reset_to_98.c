@@ -2,9 +2,8 @@
 
 /**
  * reset_to_98 - Entry point
- * @n: pointer
+ * @n: Pointer
  */
-
 void reset_to_98(int *n)
 {
 	*n = 98;
