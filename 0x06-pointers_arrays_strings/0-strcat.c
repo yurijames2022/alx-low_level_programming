@@ -3,7 +3,7 @@
 /**
  * *_strcat - Entry point
  * @src: source
- * @dest: destiation 
+ * @dest: destiation
  * Return: Return pointer
  */
 
