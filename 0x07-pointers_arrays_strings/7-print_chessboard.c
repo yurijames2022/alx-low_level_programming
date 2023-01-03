@@ -5,7 +5,7 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	int i1,i2;
+	int i1, i2;
 
 	for (i1 = 0; a[i1][7]; i1++)
 	{
