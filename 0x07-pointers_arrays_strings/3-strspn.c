@@ -4,6 +4,7 @@
  *_strspn - gets length of prefix substring
  *@s: String to be searched
  *@accept: The character to be measured
+ *Return: Bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
