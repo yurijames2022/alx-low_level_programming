@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - Function that prints a string folowed by new line
- * @s - Pointer
+ * @s: Pointer
  */
 
 void _puts_recursion(char *s)
