@@ -1,0 +1,1 @@
+This isa readme file for static libraries
