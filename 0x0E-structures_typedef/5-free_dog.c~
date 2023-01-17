@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include "dog.h"
+
+/**
+ * free_dog - Frees memory
+ * @d: Object structure to be printed
+ */
+
+void free_dog(dog_t *d)
+{
+	free(d);
+}
