@@ -6,6 +6,7 @@
  * add_node - Adds new node to beginning of linked list
  * @head: The pointer to the start of list
  * @str: String pointer
+ * Return: Returns new node at the beginning
  */
 
 list_t *add_node(list_t **head, const char *str)
